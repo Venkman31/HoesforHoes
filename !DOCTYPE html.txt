@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hose for Hoes 🔥</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --red: #c62828;
+      --dark: #111;
+      --light: #fff;
+      --grey: #f3f3f3;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--light);
+      color: var(--dark);
+    }
+
+    h1, h2, h3 {
+      font-family: 'Oswald', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* HERO */
+    .hero {
+      background:
+        linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+        url('https://images.unsplash.com/photo-1520975698519-59c0b93a28fd') center/cover;
+      min-height: 100vh;
+      color: white;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 16px;
+      border-radius: 40px;
+      font-weight: 600;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .btn-primary {
+      background: var(--red);
+      color: white;
+    }
+
+    .btn-secondary {
+      border: 2px solid white;
+      color: white;
+    }
+
+    /* SECTION */
+    section {
+      padding: 50px 20px;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 35px;
+    }
+
+    .section-title h2 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+
+    /* CARDS */
+    .card {
+      background: var(--grey);
+      padding: 25px;
+      border-radius: 16px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .card h3 {
+      color: var(--red);
+      margin-bottom: 8px;
+    }
+
+    /* WHY */
+    .why {
+      background: var(--dark);
+      color: white;
+    }
+
+    .why ul {
+      list-style: none;
+    }
+
+    .why li {
+      padding: 15px 0;
+      border-bottom: 1px solid rgba(255,255,255,.15);
+      font-size: 1.05rem;
+    }
+
+    /* CTA */
+    .cta {
+      background: var(--red);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .cta h2 {
+      font-size: 2.4rem;
+      margin-bottom: 20px;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #000;
+      color: #aaa;
+      text-align: center;
+      padding: 25px 15px;
+      font-size: 0.85rem;
+    }
+
+    footer span {
+      color: white;
+    }
+
+    /* DESKTOP UPGRADE */
+    @media (min-width: 768px) {
+      .btn {
+        max-width: 400px;
+        margin: 10px auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1>Hose for Hoes 🔥</h1>
+    <p>
+      Dating for women who like courage, confidence  
+      and a man who runs *towards* danger.
+    </p>
+
+    <a href="#" class="btn btn-primary">🔥 Join the Brigade</a>
+    <a href="#" class="btn btn-secondary">🚒 Firefighter Login</a>
+  </div>
+
+  <!-- HOW IT WORKS -->
+  <section>
+    <div class="section-title">
+      <h2>How It Works</h2>
+      <p>Simple. Safe. Spicy.</p>
+    </div>
+
+    <div class="card">
+      <h3>1. Sign Up</h3>
+      <p>Create a profile in minutes. No smoke. No mirrors.</p>
+    </div>
+
+    <div class="card">
+      <h3>2. Match</h3>
+      <p>Only verified firefighters. Real heroes only.</p>
+    </div>
+
+    <div class="card">
+      <h3>3. Ignite</h3>
+      <p>Chat, flirt, meet — let the sparks fly.</p>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section class="why">
+    <div class="section-title">
+      <h2>Why Firemen?</h2>
+      <p>Because bravery hits different.</p>
+    </div>
+
+    <ul>
+      <li>🔥 Calm under pressure</li>
+      <li>💪 Fit, disciplined & focused</li>
+      <li>❤️ Strong morals & loyalty</li>
+      <li>🚒 Emergency-ready at all times</li>
+      <li>😉 Uniform does most of the work</li>
+    </ul>
+  </section>
+
+  <!-- FEATURES -->
+  <section>
+    <div class="section-title">
+      <h2>Features</h2>
+    </div>
+
+    <div class="card">
+      <h3>🔥 Verified Firefighters</h3>
+      <p>ID & service checked.</p>
+    </div>
+
+    <div class="card">
+      <h3>🛡️ Safety First</h3>
+      <p>Reporting, moderation & privacy tools.</p>
+    </div>
+
+    <div class="card">
+      <h3>📍 Local Matches</h3>
+      <p>Find heroes near you.</p>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <div class="cta">
+    <h2>Ready to Feel the Heat?</h2>
+    <a href="#" class="btn btn-secondary">🔥 Join Free</a>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>
+      © 2026 <span>Hose for Hoes</span><br>
+      No hoses were harmed in the making of this site.
+    </p>
+  </footer>
+
+</body>
+</html>
